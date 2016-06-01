@@ -1,0 +1,18 @@
+"*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "f25be7f3-b4b7-412c-a294-cf98849b4656"
+  core:
+    disabledPackages: [
+      "jshint"
+    ]
+  editor:
+    preferredLineLength: 120
+    showIndentGuide: true
+    showInvisibles: true
+  "exception-reporting":
+    userId: "90148e57-1b05-214f-f161-46d77ccaee49"
+  linter:
+    errorPanelHeight: 143
+  welcome:
+    showOnStartup: false
