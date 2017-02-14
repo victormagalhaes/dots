@@ -4,18 +4,16 @@ alias victor='cd ~'
 alias projects='victor && cd projects'
 alias ebash='victor && atom .bash_profile'
 alias sbash='victor && source .bash_profile'
+alias eroot='victor && atom .'
 alias ehosts='atom /etc/hosts'
-alias runserver='python -m SimpleHTTPServer 8000'
+alias runserver='./manage.py runserver 0.0.0.0:8000'
+alias runserver2='python -m SimpleHTTPServer 8000'
 
-goToPMFolder() {
-  projects && cd pm-$1 && atom .
+pyclean () {
+  find . -type f -name "*.py[co]" -delete
+  find . -type d -name "__pycache__" -delete
 }
-alias pm=goToPMFolder
-
-alias web='projects && cd oi-web'
-alias api='projects && cd oi-api'
-alias defelem='projects && cd oi-default-elements'
 
 source ~/.bash_git
-
-. ~/.bash_prompt
+source ~/.git-completion.bash
+source ~/.bash_prompt
