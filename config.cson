@@ -1,18 +1,53 @@
 "*":
   "atom-beautify":
     general:
-      _analyticsUserId: "f25be7f3-b4b7-412c-a294-cf98849b4656"
+      _analyticsUserId: "2c624e3b-e873-4af1-8534-b317b9c25408"
+    json:
+      brace_style: "expand"
+      default_beautifier: "Pretty Diff"
+    python:
+      max_line_length: 120
   core:
     disabledPackages: [
-      "jshint"
+      "react"
+      "linter-scss-lint"
+      "linter-pylint"
+      "php-server"
     ]
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      "*.pyc"
+    ]
+    telemetryConsent: "limited"
   editor:
+    fontSize: 16
     preferredLineLength: 120
     showIndentGuide: true
     showInvisibles: true
+  emmet: {}
   "exception-reporting":
-    userId: "90148e57-1b05-214f-f161-46d77ccaee49"
+    userId: "35447e2f-20d9-95f5-764f-9933e67674d9"
   linter:
-    errorPanelHeight: 143
+    errorPanelHeight: 129
+  "linter-eslint":
+    useGlobalEslint: true
+  "linter-sass-lint":
+    configFile: ".sass-lint.yml"
+    globalNodePath: "/usr/local"
+    noConfigDisable: true
+  "linter-ui-default": {}
+  "markdown-preview":
+    useGitHubStyle: true
+  "tree-view":
+    hideIgnoredNames: true
+    hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false
+".ini.source":
+  editor:
+    preferredLineLength: 120
