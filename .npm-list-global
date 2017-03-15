@@ -1,0 +1,6 @@
+eslint@3.11.1
+gulp@4.0.0-alpha.2 (git://github.com/gulpjs/gulp.git#d8f5c90a0622d19ef1943a2a3d02dc50e3c853e7)
+gulp-cli@1.2.2 (git://github.com/gulpjs/gulp-cli.git#51b301a043bd5617465fbb73ced86bf2c35a1924)
+lodash@4.17.4
+mocha@3.2.0
+npm@3.9.3
